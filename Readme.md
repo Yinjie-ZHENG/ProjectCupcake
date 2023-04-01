@@ -1,50 +1,3 @@
-**An app aims at helping people lose weight: Cupcake   
-Final Report**
-
-Group：cupcake
-
-Student：A0228498L-ZHENG YINJIE and A0228600N-LIU XIAOFEI
-
-[Instructions and Google drive link](#instructions-and-google-drive-link)
-
-[Instructions](#instructions)
-
-[Google drive link](#google-drive-link)
-
-[Tutorial 7 Answers](#tutorial-7-answers)
-
-[Introduction](#introduction)
-
-[Similar application](#similar-application)
-
-[Difference and Novelty](#difference-and-novelty)
-
-[Business Analysis](#business-analysis)
-
-[Function List and Architecture](#function-list-and-architecture)
-
-[Final function lists](#final-function-lists)
-
-[Architecture](#architecture)
-
-[Interim function lists](#interim-function-lists)
-
-[Website screenshots](#website-screenshots)
-
-[Final website screenshots](#final-website-screenshots)
-
-[Interim website screenshots](#interim-website-screenshots)
-
-[List of features - document](#list-of-features)
-
-[UI Implementation](#ui-implementation)
-
-[Back-end Implementation](#back-end-implementation)
-
-[Summary and High-level design](#summary-and-high-level-design)
-
-[Reference](#reference)
-
 ## Instructions and Google drive link
 
 ### Instructions
@@ -70,45 +23,6 @@ We also uploaded test images in the Google drive link.
 
 https://drive.google.com/drive/folders/1h0NJGqKn9em3guyCHe9Qi2lDyKDjvQiU?usp=sharing
 
-## Tutorial 7 Answers
-
-Computer:
-
-Cpu: Amd Ryzeen 7 4800H with Radeon Graphics
-
-RAM: 16GB
-
-Browser: Chrome
-
-Belows are the average of ten measurements.
-
-Q1.
-
-The homepage load time: 0.34ms
-
-Q2.
-
-The response time of google login: 0.18ms
-
-The response time of google logout: 0.17ms
-
-The response time of detect calorie expend in the backend and pass the result to frontend:32ms
-
-The response time of detect calorie intake in the backend and pass the result to frontend:depend on the input image quality:
-
-for 512\*256 pixel:2.228s
-
-for 2703\*3784 pixel: 6.521s
-
-The response time of submitting expend/intake data to mongodb in the backend:26ms
-
-The response time of showing the list of calorie expend/intake history:31ms, it’s depend on the number of records.
-
-Q3.
-
-The response time of uploading an image, using python program to detect calorie and submitting in the backend: 32ms
-
-The response time of manually input calorie and submit it in the backend: 26ms
 
 ## Introduction
 
